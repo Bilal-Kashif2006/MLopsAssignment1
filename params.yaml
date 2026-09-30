@@ -1,0 +1,6 @@
+data_ingestion :
+  raw_data_path : "data/raw"
+  ingested_train_path : "data/ingested/train"
+  ingested_test_path : "data/ingested/test"
+data_preprocessing :
+  preprocessed_data_path : "data/preprocessed"
