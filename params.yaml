@@ -1,6 +1,7 @@
 data_ingestion :
-  raw_data_path : "data/raw"
+  raw_data_path : "data/raw/raw.npz"
   ingested_train_path : "data/ingested/train"
   ingested_test_path : "data/ingested/test"
 data_preprocessing :
-  preprocessed_data_path : "data/preprocessed"
+  processed_data_path : "data/processed/fashion_mnist_scaled.npz"
+model_dir : "models"
