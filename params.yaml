@@ -14,5 +14,5 @@ model_dir : "models"
 train :
   epochs : 10
   batch_size : 32
-  dropout_rate : 0.2
+  dropout_rate : 0.3
   dense_units : 128
