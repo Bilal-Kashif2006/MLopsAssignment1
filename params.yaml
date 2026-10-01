@@ -4,4 +4,15 @@ data_ingestion :
   ingested_test_path : "data/ingested/test"
 data_preprocessing :
   processed_data_path : "data/processed/fashion_mnist_scaled.npz"
+
+preprocessing :
+  val_size : 0.1
+  random_state : 42
+
 model_dir : "models"
+
+train :
+  epochs : 10
+  batch_size : 32
+  dropout_rate : 0.2
+  dense_units : 128
